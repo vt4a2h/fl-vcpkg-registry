@@ -12,7 +12,7 @@ vcpkg_configure_cmake(
 )
 
 vcpkg_install_cmake()
-vcpkg_cmake_config_fixup(PACKAGE_NAME fl CONFIG_PATH lib/cmake/${PACKAGE_NAME})
+vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake/${PACKAGE_NAME})
 
 
 file(REMOVE_RECURSE
