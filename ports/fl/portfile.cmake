@@ -1,6 +1,6 @@
-vcpkg_from_github(
+vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
-  REPO vt4a2h/fl
+  URL git@github.com:vt4a2h/fl.git
   REF 2f28bf41b93036a1d8565cf8db1ef56fc467be73
   HEAD_REF main
 )
